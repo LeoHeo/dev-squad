@@ -51,7 +51,7 @@ When a single AI agent builds a feature end-to-end, it:
 - **Misses edge cases** in QA because it already "knows" what the code does
 - **Drifts from spec** with no one to catch deviations in real time
 
-Research shows single-agent development catches only **39% of defects** before deployment, and **52% of generated code requires rework** due to missed requirements or integration bugs.
+Anthropic proved this at scale: [16 parallel agents built a 100,000-line C compiler](https://www.anthropic.com/engineering/building-c-compiler) that compiles Linux 6.9 — in just 2 weeks, across ~2,000 sessions. Specialized agents for dedup, optimization, and code generation each did what a single agent couldn't.
 
 <p align="center">
   <img src="images/comparison.svg" alt="Single Agent vs Agent Teams" width="800"/>

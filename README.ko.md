@@ -51,7 +51,7 @@
 - 코드가 "어떻게 동작하는지" 이미 알기 때문에 **엣지 케이스를 놓칩니다**
 - 실시간으로 확인해주는 사람이 없어 **스펙에서 이탈합니다**
 
-연구에 따르면 단일 에이전트 개발은 배포 전 **결함의 39%만 발견**하며, **생성된 코드의 52%가 재작업**이 필요합니다.
+Anthropic이 이를 대규모로 증명했습니다: [16개 병렬 에이전트가 100,000줄 C 컴파일러를 구축](https://www.anthropic.com/engineering/building-c-compiler)하여 Linux 6.9를 컴파일했습니다 — 단 2주, ~2,000개 세션으로. 중복 제거, 최적화, 코드 생성 전담 에이전트가 각각 단일 에이전트로는 불가능한 일을 해냈습니다.
 
 <p align="center">
   <img src="images/comparison.svg" alt="Single Agent vs Dev Squad" width="800"/>
