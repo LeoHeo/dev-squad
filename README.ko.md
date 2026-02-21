@@ -86,7 +86,11 @@ Conventional Commits로 논리적 분리. 하나의 커밋 = 하나의 논리적
 ### 설치
 
 ```bash
-claude plugin add dev-squad
+# 1. Dev Squad 마켓플레이스 추가
+claude plugin marketplace add LeoHeo/dev-squad
+
+# 2. 플러그인 설치
+claude plugin install dev-squad
 ```
 
 ### 실행

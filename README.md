@@ -85,7 +85,11 @@ Kill dev servers, terminate workers, disband team. Clean exit.
 ### Install
 
 ```bash
-claude plugin add dev-squad
+# 1. Add the Dev Squad marketplace
+claude plugin marketplace add LeoHeo/dev-squad
+
+# 2. Install the plugin
+claude plugin install dev-squad
 ```
 
 ### Run
