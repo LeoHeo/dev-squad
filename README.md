@@ -222,14 +222,15 @@ Edit this file to customize branch strategy, exclude directories, or override de
 
 ---
 
-## Key Numbers
+## Why It Works
 
-| Metric | Value | Source |
-|--------|-------|--------|
-| Defect detection with multi-agent review | **91%** vs 39% single-agent | Microsoft Research, 2024 |
-| Security issue coverage with dedicated agent | **89%** vs 26% single-agent | OWASP Benchmark Study |
-| Rework reduction with parallel verification | **-65%** | IBM Defect Prevention |
-| API integration bugs with real-time contract sync | **Near zero** | Dev Squad SendMessage protocol |
+| Advantage | Single Agent | Agent Teams |
+|-----------|-------------|-------------|
+| **Defect detection** | Self-review bias — misses own mistakes | Independent reviewers catch what the author can't |
+| **Security coverage** | Security is an afterthought | Dedicated Security Sr. audits every change |
+| **Spec compliance** | No one verifies requirements are met | CTO Lead validates match rate before shipping |
+| **API integration** | Frontend guesses backend shape | Real-time contract negotiation via SendMessage |
+| **Rework** | Bugs found late → expensive fixes | Parallel verification catches issues early |
 
 ---
 
