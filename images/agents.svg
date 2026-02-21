@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f0f23"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+    <filter id="s2">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="520" fill="url(#bg2)" rx="16"/>
+
+  <text x="500" y="42" text-anchor="middle" fill="#e2e8f0" font-size="24" font-weight="700">6 Specialized Agents, 1 Unified Team</text>
+  <text x="500" y="66" text-anchor="middle" fill="#94a3b8" font-size="13">Each agent brings deep expertise. Together, they ship production-ready features.</text>
+
+  <!-- CTO Lead - Center top -->
+  <g filter="url(#s2)" transform="translate(370, 90)">
+    <rect width="260" height="110" rx="12" fill="#1e1e3f" stroke="#8b5cf6" stroke-width="2"/>
+    <rect width="260" height="4" rx="2" fill="#8b5cf6" y="0"/>
+    <circle cx="45" cy="58" r="28" fill="#8b5cf620" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="45" y="66" text-anchor="middle" font-size="26">👔</text>
+    <text x="90" y="45" fill="#c4b5fd" font-size="15" font-weight="700">CTO Lead</text>
+    <text x="90" y="64" fill="#e2e8f0" font-size="11">Architecture decisions</text>
+    <text x="90" y="80" fill="#e2e8f0" font-size="11">Task orchestration</text>
+    <text x="90" y="96" fill="#94a3b8" font-size="10">Delegates — never codes directly</text>
+  </g>
+
+  <!-- Connection lines from CTO to others -->
+  <g stroke="#8b5cf6" stroke-width="1" stroke-dasharray="4,4" opacity="0.4">
+    <line x1="400" y1="200" x2="175" y2="270"/>
+    <line x1="500" y1="200" x2="500" y2="270"/>
+    <line x1="600" y1="200" x2="825" y2="270"/>
+    <line x1="420" y1="200" x2="340" y2="270"/>
+    <line x1="580" y1="200" x2="660" y2="270"/>
+  </g>
+
+  <!-- Frontend Senior -->
+  <g filter="url(#s2)" transform="translate(30, 270)">
+    <rect width="180" height="120" rx="10" fill="#1e1e3f" stroke="#3b82f6" stroke-width="1.5"/>
+    <rect width="180" height="3" rx="1.5" fill="#3b82f6" y="0"/>
+    <text x="90" y="38" text-anchor="middle" font-size="28">🎨</text>
+    <text x="90" y="62" text-anchor="middle" fill="#93c5fd" font-size="13" font-weight="700">Frontend Senior</text>
+    <text x="90" y="80" text-anchor="middle" fill="#e2e8f0" font-size="10">Components + Pages</text>
+    <text x="90" y="95" text-anchor="middle" fill="#e2e8f0" font-size="10">API Integration</text>
+    <text x="90" y="110" text-anchor="middle" fill="#94a3b8" font-size="9">React / Vue / Nuxt / Next.js</text>
+  </g>
+
+  <!-- Backend Senior -->
+  <g filter="url(#s2)" transform="translate(225, 270)">
+    <rect width="180" height="120" rx="10" fill="#1e1e3f" stroke="#10b981" stroke-width="1.5"/>
+    <rect width="180" height="3" rx="1.5" fill="#10b981" y="0"/>
+    <text x="90" y="38" text-anchor="middle" font-size="28">⚙️</text>
+    <text x="90" y="62" text-anchor="middle" fill="#6ee7b7" font-size="13" font-weight="700">Backend Senior</text>
+    <text x="90" y="80" text-anchor="middle" fill="#e2e8f0" font-size="10">API + Service Layer</text>
+    <text x="90" y="95" text-anchor="middle" fill="#e2e8f0" font-size="10">Data Models</text>
+    <text x="90" y="110" text-anchor="middle" fill="#94a3b8" font-size="9">Spring / Express / Go / Rust</text>
+  </g>
+
+  <!-- UI/UX Senior -->
+  <g filter="url(#s2)" transform="translate(420, 270)">
+    <rect width="180" height="120" rx="10" fill="#1e1e3f" stroke="#f59e0b" stroke-width="1.5"/>
+    <rect width="180" height="3" rx="1.5" fill="#f59e0b" y="0"/>
+    <text x="90" y="38" text-anchor="middle" font-size="28">✏️</text>
+    <text x="90" y="62" text-anchor="middle" fill="#fcd34d" font-size="13" font-weight="700">UI/UX Senior</text>
+    <text x="90" y="80" text-anchor="middle" fill="#e2e8f0" font-size="10">Screen Design Spec</text>
+    <text x="90" y="95" text-anchor="middle" fill="#e2e8f0" font-size="10">Component Architecture</text>
+    <text x="90" y="110" text-anchor="middle" fill="#94a3b8" font-size="9">A11y + Usability</text>
+  </g>
+
+  <!-- Security Senior -->
+  <g filter="url(#s2)" transform="translate(615, 270)">
+    <rect width="180" height="120" rx="10" fill="#1e1e3f" stroke="#ef4444" stroke-width="1.5"/>
+    <rect width="180" height="3" rx="1.5" fill="#ef4444" y="0"/>
+    <text x="90" y="38" text-anchor="middle" font-size="28">🛡️</text>
+    <text x="90" y="62" text-anchor="middle" fill="#fca5a5" font-size="13" font-weight="700">Security Senior</text>
+    <text x="90" y="80" text-anchor="middle" fill="#e2e8f0" font-size="10">Vulnerability Scan</text>
+    <text x="90" y="95" text-anchor="middle" fill="#e2e8f0" font-size="10">Auth / RBAC Check</text>
+    <text x="90" y="110" text-anchor="middle" fill="#94a3b8" font-size="9">OWASP Top 10</text>
+  </g>
+
+  <!-- QA Senior -->
+  <g filter="url(#s2)" transform="translate(810, 270)">
+    <rect width="160" height="120" rx="10" fill="#1e1e3f" stroke="#06b6d4" stroke-width="1.5"/>
+    <rect width="160" height="3" rx="1.5" fill="#06b6d4" y="0"/>
+    <text x="80" y="38" text-anchor="middle" font-size="28">🧪</text>
+    <text x="80" y="62" text-anchor="middle" fill="#67e8f9" font-size="13" font-weight="700">QA Senior</text>
+    <text x="80" y="80" text-anchor="middle" fill="#e2e8f0" font-size="10">Test Strategy</text>
+    <text x="80" y="95" text-anchor="middle" fill="#e2e8f0" font-size="10">Intent-based QA</text>
+    <text x="80" y="110" text-anchor="middle" fill="#94a3b8" font-size="9">Unit + E2E + UI</text>
+  </g>
+
+  <!-- Bottom stats -->
+  <g transform="translate(100, 430)">
+    <rect width="230" height="56" rx="10" fill="#1e1e3f" stroke="#6366f120" stroke-width="1"/>
+    <text x="115" y="30" text-anchor="middle" fill="#a5b4fc" font-size="22" font-weight="800">6</text>
+    <text x="115" y="47" text-anchor="middle" fill="#94a3b8" font-size="11">Specialized Agents</text>
+  </g>
+  <g transform="translate(385, 430)">
+    <rect width="230" height="56" rx="10" fill="#1e1e3f" stroke="#10b98120" stroke-width="1"/>
+    <text x="115" y="30" text-anchor="middle" fill="#6ee7b7" font-size="22" font-weight="800">Real-time</text>
+    <text x="115" y="47" text-anchor="middle" fill="#94a3b8" font-size="11">SendMessage Collaboration</text>
+  </g>
+  <g transform="translate(670, 430)">
+    <rect width="230" height="56" rx="10" fill="#1e1e3f" stroke="#f59e0b20" stroke-width="1"/>
+    <text x="115" y="30" text-anchor="middle" fill="#fcd34d" font-size="22" font-weight="800">Any Stack</text>
+    <text x="115" y="47" text-anchor="middle" fill="#94a3b8" font-size="11">Auto-detect Project Type</text>
+  </g>
+
+  <text x="500" y="510" text-anchor="middle" fill="#475569" font-size="10">dev-squad — Collaborative AI Development for Claude Code</text>
+</svg>

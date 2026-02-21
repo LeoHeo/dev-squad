@@ -1,0 +1,26 @@
+Dev Squad
+Copyright 2026 leoheo
+
+================================================================================
+
+This plugin was inspired by concepts from the following project:
+
+bkit (Vibecoding Kit)
+Copyright 2024-2026 POPUP STUDIO PTE. LTD. (https://popupstudio.ai)
+Licensed under the Apache License, Version 2.0
+https://github.com/anthropics/claude-plugins-official
+
+Specifically, Dev Squad's development pipeline structure was influenced by
+bkit's PDCA (Plan-Do-Check-Act) methodology for AI-native development.
+
+Dev Squad does not contain copied code from bkit. All agents, skills, and
+workflows are original implementations. The influence is limited to:
+- Document organization patterns (plan → implementation → QA verification)
+- Phased development pipeline concept
+- Quality gate methodology
+
+================================================================================
+
+This software uses Claude Code by Anthropic, PBC.
+Claude Code is subject to Anthropic's terms of service.
+https://www.anthropic.com/terms

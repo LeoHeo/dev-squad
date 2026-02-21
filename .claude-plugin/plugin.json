@@ -1,0 +1,24 @@
+{
+  "name": "dev-squad",
+  "description": "Ship production-ready features with a team of 6 specialized AI agents. CTO Lead orchestrates Frontend, Backend, UI/UX, Security, and QA seniors working in parallel via SendMessage.",
+  "version": "1.0.0",
+  "author": {
+    "name": "leoheo",
+    "email": ""
+  },
+  "homepage": "https://github.com/leoheo/dev-squad",
+  "repository": "https://github.com/leoheo/dev-squad",
+  "license": "MIT",
+  "keywords": [
+    "agent-teams",
+    "multi-agent",
+    "feature-development",
+    "code-review",
+    "security-audit",
+    "qa-testing",
+    "parallel-development",
+    "team-collaboration",
+    "fullstack",
+    "monorepo"
+  ]
+}
