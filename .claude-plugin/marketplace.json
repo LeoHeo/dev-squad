@@ -1,0 +1,41 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dev-squad-marketplace",
+  "version": "1.0.0",
+  "description": "Dev Squad — Ship production-ready features with a team of 6 AI agents",
+  "owner": {
+    "name": "leoheo",
+    "url": "https://github.com/LeoHeo"
+  },
+  "metadata": {
+    "description": "Ship production-ready features with a team of 6 AI agents — not a single overwhelmed one."
+  },
+  "plugins": [
+    {
+      "name": "dev-squad",
+      "description": "Ship production-ready features with a team of 6 specialized AI agents. CTO Lead orchestrates Frontend, Backend, UI/UX, Security, and QA seniors working in parallel via SendMessage.",
+      "version": "1.0.0",
+      "author": {
+        "name": "leoheo"
+      },
+      "repository": "https://github.com/LeoHeo/dev-squad",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LeoHeo/dev-squad.git"
+      },
+      "category": "development",
+      "keywords": [
+        "agent-teams",
+        "multi-agent",
+        "feature-development",
+        "code-review",
+        "security-audit",
+        "qa-testing",
+        "parallel-development",
+        "team-collaboration",
+        "fullstack",
+        "monorepo"
+      ]
+    }
+  ]
+}
