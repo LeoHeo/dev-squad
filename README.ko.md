@@ -29,6 +29,14 @@
 
 *한 에이전트에게 여섯 가지 일을 시키는 걸 멈추면 이렇게 됩니다.*
 
+### 실제 실행 캡처
+
+아래는 실제 Dev Squad 세션에서 캡처한 로그입니다 — 6명의 에이전트가 SendMessage로 계획 단계를 협업하는 모습:
+
+<p align="center">
+  <img src="images/real-example-ko.svg" alt="실제 Dev Squad 세션" width="800"/>
+</p>
+
 <p align="center">
   <img src="images/agents.svg" alt="Dev Squad Overview" width="800"/>
 </p>

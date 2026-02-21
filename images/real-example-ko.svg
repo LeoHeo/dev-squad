@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f0f23"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="720" fill="url(#bgGrad)" rx="16"/>
+
+  <!-- Header -->
+  <rect x="30" y="20" width="840" height="52" rx="10" fill="#1e1e3f" stroke="#8b5cf6" stroke-width="1"/>
+  <circle cx="54" cy="46" r="6" fill="#ef4444"/>
+  <circle cx="74" cy="46" r="6" fill="#f59e0b"/>
+  <circle cx="94" cy="46" r="6" fill="#10b981"/>
+  <text x="450" y="51" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="500">Dev Squad &#x2014; &#xC2E4;&#xC81C; &#xC5D0;&#xC774;&#xC804;&#xD2B8; &#xD611;&#xC5C5; &#xB85C;&#xADF8; (Phase 2: &#xACC4;&#xD68D;)</text>
+
+  <!-- Timeline line -->
+  <line x1="60" y1="100" x2="60" y2="680" stroke="#374151" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Entry 1: UI/UX Senior -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="90" width="780" height="72" rx="10" fill="#1a1a3e" stroke="#f59e0b" stroke-width="1.2"/>
+  </g>
+  <circle cx="60" cy="126" r="8" fill="#f59e0b"/>
+  <text x="100" y="114" fill="#fcd34d" font-size="12" font-weight="700">UI/UX Senior</text>
+  <text x="220" y="114" fill="#475569" font-size="11">SendMessage &#x2192; CTO Lead</text>
+  <text x="100" y="136" fill="#cbd5e1" font-size="13">&#xC124;&#xACC4;&#xC548;&#xC744; &#xC644;&#xC131;&#xD558;&#xC5EC; CTO Lead&#xC5D0;&#xAC8C; &#xBCF4;&#xACE0;&#xD588;&#xC2B5;&#xB2C8;&#xB2E4;.</text>
+  <text x="100" y="152" fill="#94a3b8" font-size="11">CTO Lead&#xAC00; &#xC124;&#xACC4;&#xC548;&#xC744; &#xAC80;&#xD1A0;&#xD558;&#xACE0; &#xD1B5;&#xD569; Plan&#xC744; &#xC791;&#xC131;&#xD560; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;. &#xB2E4;&#xB978; Senior&#xB4E4;&#xC758; &#xC751;&#xB2F5;&#xB3C4; &#xAE30;&#xB2E4;&#xB9AC;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;.</text>
+
+  <!-- Entry 2: CTO Lead receives -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="180" width="780" height="72" rx="10" fill="#1a1a3e" stroke="#8b5cf6" stroke-width="1.2"/>
+  </g>
+  <circle cx="60" cy="216" r="8" fill="#8b5cf6"/>
+  <text x="100" y="204" fill="#c4b5fd" font-size="12" font-weight="700">CTO Lead</text>
+  <text x="200" y="204" fill="#475569" font-size="11">UI/UX Senior&#xC5D0;&#xAC8C;&#xC11C; &#xC218;&#xC2E0;</text>
+  <text x="100" y="226" fill="#cbd5e1" font-size="13">UI/UX Senior&#xC758; &#xC124;&#xACC4;&#xC548;&#xC744; &#xC218;&#xC2E0;&#xD588;&#xC2B5;&#xB2C8;&#xB2E4;.</text>
+  <text x="100" y="242" fill="#94a3b8" font-size="11">Backend Senior&#xC640; Frontend Senior&#xC758; &#xC751;&#xB2F5;&#xC744; &#xACC4;&#xC18D; &#xAE30;&#xB2E4;&#xB9AC;&#xACE0; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</text>
+
+  <!-- Entry 3: Frontend Senior -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="270" width="780" height="72" rx="10" fill="#1a1a3e" stroke="#3b82f6" stroke-width="1.2"/>
+  </g>
+  <circle cx="60" cy="306" r="8" fill="#3b82f6"/>
+  <text x="100" y="294" fill="#93c5fd" font-size="12" font-weight="700">Frontend Senior</text>
+  <text x="240" y="294" fill="#475569" font-size="11">SendMessage &#x2192; CTO Lead</text>
+  <text x="100" y="316" fill="#cbd5e1" font-size="13">&#xAD6C;&#xD604; &#xBCF5;&#xC7A1;&#xB3C4; &#xBD84;&#xC11D;&#xC744; &#xC644;&#xB8CC;&#xD558;&#xC5EC; CTO Lead&#xC5D0;&#xAC8C; &#xBCF4;&#xACE0;&#xD588;&#xC2B5;&#xB2C8;&#xB2E4;.</text>
+  <text x="100" y="332" fill="#94a3b8" font-size="11">&#xC774;&#xC81C; Backend Senior&#xC758; &#xC751;&#xB2F5;&#xC744; &#xAE30;&#xB2E4;&#xB9AC;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;.</text>
+
+  <!-- Entry 4: CTO Lead receives Frontend -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="360" width="780" height="72" rx="10" fill="#1a1a3e" stroke="#8b5cf6" stroke-width="1.2"/>
+  </g>
+  <circle cx="60" cy="396" r="8" fill="#8b5cf6"/>
+  <text x="100" y="384" fill="#c4b5fd" font-size="12" font-weight="700">CTO Lead</text>
+  <text x="200" y="384" fill="#475569" font-size="11">Frontend Senior&#xC5D0;&#xAC8C;&#xC11C; &#xC218;&#xC2E0;</text>
+  <text x="100" y="406" fill="#cbd5e1" font-size="13">Frontend Senior&#xC758; &#xBCF4;&#xACE0;&#xB3C4; &#xC218;&#xC2E0;&#xD588;&#xC2B5;&#xB2C8;&#xB2E4;.</text>
+  <text x="100" y="422" fill="#94a3b8" font-size="11">Backend Senior&#xC758; API &#xAC80;&#xD1A0; &#xACB0;&#xACFC;&#xB9CC; &#xB0A8;&#xC558;&#xC2B5;&#xB2C8;&#xB2E4;.</text>
+
+  <!-- Entry 5: Backend Senior -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="450" width="780" height="72" rx="10" fill="#1a1a3e" stroke="#10b981" stroke-width="1.2"/>
+  </g>
+  <circle cx="60" cy="486" r="8" fill="#10b981"/>
+  <text x="100" y="474" fill="#6ee7b7" font-size="12" font-weight="700">Backend Senior</text>
+  <text x="235" y="474" fill="#475569" font-size="11">SendMessage &#x2192; CTO Lead</text>
+  <text x="100" y="496" fill="#cbd5e1" font-size="13">API &#xBCC0;&#xACBD; &#xAC80;&#xD1A0;&#xB97C; &#xC644;&#xB8CC;&#xD558;&#xC5EC; CTO Lead&#xC5D0;&#xAC8C; &#xBCF4;&#xACE0;&#xD588;&#xC2B5;&#xB2C8;&#xB2E4;.</text>
+  <text x="100" y="512" fill="#94a3b8" font-size="11">&#xBAA8;&#xB4E0; Senior&#xC758; &#xBCF4;&#xACE0;&#xAC00; &#xC644;&#xB8CC;. CTO Lead&#xAC00; &#xCD5C;&#xC885; Plan &#xBB38;&#xC11C;&#xB97C; &#xC791;&#xC131;&#xD560; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;.</text>
+
+  <!-- Entry 6: CTO Lead final -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="540" width="780" height="52" rx="10" fill="#1a1a3e" stroke="#8b5cf6" stroke-width="1.5"/>
+  </g>
+  <circle cx="60" cy="566" r="8" fill="#8b5cf6"/>
+  <text x="100" y="562" fill="#c4b5fd" font-size="12" font-weight="700">CTO Lead</text>
+  <text x="200" y="562" fill="#475569" font-size="11">&#xC624;&#xCF00;&#xC2A4;&#xD2B8;&#xB808;&#xC774;&#xC158;</text>
+  <text x="100" y="578" fill="#e2e8f0" font-size="13" font-weight="600">&#xBAA8;&#xB4E0; Senior &#xBCF4;&#xACE0; &#xC644;&#xB8CC;. CTO Lead&#xAC00; &#xCD5C;&#xC885; Plan&#xC744; &#xD1B5;&#xD569; &#xC791;&#xC131; &#xC911;&#xC785;&#xB2C8;&#xB2E4;.</text>
+
+  <!-- Result badge -->
+  <rect x="230" y="620" width="440" height="46" rx="23" fill="#10b98120" stroke="#10b981" stroke-width="1.5"/>
+  <text x="450" y="649" text-anchor="middle" fill="#6ee7b7" font-size="15" font-weight="700">Phase 2 &#xC644;&#xB8CC; &#x2014; Plan &#xBB38;&#xC11C; &#xC900;&#xBE44; &#xC644;&#xB8CC;</text>
+
+  <!-- Watermark -->
+  <text x="450" y="700" text-anchor="middle" fill="#475569" font-size="11">&#xC2E4;&#xC81C; Dev Squad &#xC138;&#xC158;&#xC5D0;&#xC11C; &#xCEA1;&#xCC98;&#xB41C; &#xB85C;&#xADF8;</text>
+</svg>

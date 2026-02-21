@@ -29,6 +29,14 @@
 
 *This is what happens when you stop asking one agent to do six jobs.*
 
+### Real Session Capture
+
+This is from an actual Dev Squad session — 6 agents collaborating via SendMessage during the planning phase:
+
+<p align="center">
+  <img src="images/real-example.svg" alt="Real Dev Squad Session" width="800"/>
+</p>
+
 <p align="center">
   <img src="images/agents.svg" alt="Agent Teams Overview" width="800"/>
 </p>
