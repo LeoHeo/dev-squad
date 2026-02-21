@@ -1,5 +1,11 @@
 # Dev Squad
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Claude Code Plugin](https://img.shields.io/badge/Claude_Code-Plugin-7c3aed)](https://github.com/LeoHeo/dev-squad)
+[![Marketplace](https://img.shields.io/badge/Marketplace-Available-10b981)](https://github.com/LeoHeo/dev-squad)
+[![Agents](https://img.shields.io/badge/Agents-6_Specialists-3b82f6)](https://github.com/LeoHeo/dev-squad)
+[![Official Directory](https://img.shields.io/badge/Official_Directory-Pending_Review-f59e0b)](https://github.com/anthropics/claude-plugins-official)
+
 **6명의 AI 전문 에이전트 팀으로 프로덕션 수준의 기능을 완성하세요.**
 
 > 한 명의 AI 에이전트가 프론트엔드와 백엔드를 동시에 작성하는 것은,

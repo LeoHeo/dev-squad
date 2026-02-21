@@ -1,5 +1,11 @@
 # Dev Squad
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Claude Code Plugin](https://img.shields.io/badge/Claude_Code-Plugin-7c3aed)](https://github.com/LeoHeo/dev-squad)
+[![Marketplace](https://img.shields.io/badge/Marketplace-Available-10b981)](https://github.com/LeoHeo/dev-squad)
+[![Agents](https://img.shields.io/badge/Agents-6_Specialists-3b82f6)](https://github.com/LeoHeo/dev-squad)
+[![Official Directory](https://img.shields.io/badge/Official_Directory-Pending_Review-f59e0b)](https://github.com/anthropics/claude-plugins-official)
+
 **Ship production-ready features with a team of 6 AI agents — not a single overwhelmed one.**
 
 > A single AI agent writing both frontend and backend is like a solo developer doing architecture, coding, security review, and QA all at once.
