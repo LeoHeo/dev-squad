@@ -33,7 +33,7 @@
 This is an actual Dev Squad session — CTO Lead orchestrating 6 agents working in parallel via tmux:
 
 <p align="center">
-  <img src="images/real-session.png" alt="Real Dev Squad Session — tmux multi-pane" width="800"/>
+  <img src="images/real_session_en.png" alt="Real Dev Squad Session — tmux multi-pane" width="800"/>
 </p>
 
 <p align="center">
