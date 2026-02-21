@@ -31,10 +31,10 @@
 
 ### Real Session Capture
 
-This is from an actual Dev Squad session — 6 agents collaborating via SendMessage during the planning phase:
+This is an actual Dev Squad session — CTO Lead orchestrating 6 agents working in parallel via tmux:
 
 <p align="center">
-  <img src="images/real-example.svg" alt="Real Dev Squad Session" width="800"/>
+  <img src="images/real-session.png" alt="Real Dev Squad Session — tmux multi-pane" width="800"/>
 </p>
 
 <p align="center">

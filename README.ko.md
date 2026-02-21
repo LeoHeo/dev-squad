@@ -31,10 +31,10 @@
 
 ### 실제 실행 캡처
 
-아래는 실제 Dev Squad 세션에서 캡처한 로그입니다 — 6명의 에이전트가 SendMessage로 계획 단계를 협업하는 모습:
+아래는 실제 Dev Squad 세션입니다 — CTO Lead가 tmux에서 6명의 에이전트를 병렬로 오케스트레이션하는 모습:
 
 <p align="center">
-  <img src="images/real-example-ko.svg" alt="실제 Dev Squad 세션" width="800"/>
+  <img src="images/real-session.png" alt="실제 Dev Squad 세션 — tmux 멀티 패널" width="800"/>
 </p>
 
 <p align="center">
