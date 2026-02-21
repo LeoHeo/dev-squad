@@ -8,9 +8,26 @@
 
 **6명의 AI 전문 에이전트 팀으로 프로덕션 수준의 기능을 완성하세요.**
 
-> 한 명의 AI 에이전트가 프론트엔드와 백엔드를 동시에 작성하는 것은,
-> 혼자서 아키텍처, 코딩, 보안 리뷰, QA를 모두 하는 것과 같습니다.
-> 아무도 그렇게 일하지 않습니다. AI도 마찬가지입니다.
+> **명령어 하나. 전문가 여섯. 프로덕션 수준의 코드.**
+
+```bash
+/new-feature
+```
+
+```
+🔍 프로젝트 감지 중... Spring Boot + Nuxt 3 (모노레포)
+👔 CTO Lead      → 요구사항을 4개 작업으로 분해
+🎨 Frontend Sr.  → "API 계약이 필요합니다 — /api/users"
+⚙️ Backend Sr.   → "스펙 전달: GET /api/users → UserListResponse"
+🎨 Frontend Sr.  → "확인, 테이블 컴포넌트 구현 시작합니다"
+🛡️ Security Sr.  → "발견: PUT 엔드포인트에 @PreAuthorize 누락"
+⚙️ Backend Sr.   → "수정 완료, hasAuthority('PERM_USER_EDIT') 추가"
+🧪 QA Sr.        → "12개 시나리오 전체 통과, 실패 0건"
+👔 CTO Lead      → "요구사항 충족률: 96%. 출시합니다."
+✅ feature/user-management에 4개 커밋 생성 완료
+```
+
+*한 에이전트에게 여섯 가지 일을 시키는 걸 멈추면 이렇게 됩니다.*
 
 <p align="center">
   <img src="images/agents.svg" alt="Dev Squad Overview" width="800"/>
@@ -206,6 +223,25 @@ cp ~/.claude/plugins/cache/.../agents/security-senior.md .claude/agents/security
 | 전담 에이전트의 보안 이슈 커버리지 | **89%** vs 단일 에이전트 26% | OWASP Benchmark Study |
 | 병렬 검증으로 재작업 감소 | **-65%** | IBM Defect Prevention |
 | 실시간 계약 동기화로 API 통합 버그 | **거의 제로** | Dev Squad SendMessage 프로토콜 |
+
+---
+
+## FAQ
+
+**Q: 에이전트 하나로도 되는데, 왜 여섯이 필요한가요?**
+자기가 작성한 코드를 자기가 리뷰하는 건, 셰프가 자기 요리를 자기가 맛보는 것과 같습니다 — 이미 어떤 맛인지 알고 있기 때문입니다. Dev Squad의 Security Sr.과 QA Sr.은 자기가 작성하지 않은 코드를 리뷰하므로, 작성자가 놓치는 문제를 잡아냅니다.
+
+**Q: 실제로 빨라지나요?**
+Frontend와 Backend가 순차가 아닌 병렬로 작업합니다. 검증(코드리뷰 + 보안 + QA + 요구사항)도 동시에 실행됩니다. 체감 소요 시간이 크게 줄어듭니다.
+
+**Q: 에이전트끼리 의견이 다르면 어떻게 되나요?**
+CTO Lead가 최종 판단합니다. Frontend Sr.과 Backend Sr.이 SendMessage로 API 계약을 협상하면, CTO Lead가 요구사항 대비 결과를 검증합니다. 의견 차이는 동일한 메시지 프로토콜로 해결됩니다.
+
+**Q: 에이전트 동작을 커스터마이징할 수 있나요?**
+네. 플러그인의 에이전트를 `.claude/agents/`로 복사하고 수정하면 됩니다. 프로젝트 레벨 에이전트가 플러그인 에이전트를 오버라이드합니다. [커스터마이징](#커스터마이징) 참고.
+
+**Q: bkit 설치가 필요한가요?**
+아닙니다. Dev Squad는 완전히 독립적으로 동작합니다. 다만 bkit + Dev Squad를 함께 쓰면 PDCA 라이프사이클 관리와 멀티 에이전트 협업이 하나로 연결됩니다.
 
 ---
 

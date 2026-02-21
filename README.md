@@ -8,8 +8,26 @@
 
 **Ship production-ready features with a team of 6 AI agents — not a single overwhelmed one.**
 
-> A single AI agent writing both frontend and backend is like a solo developer doing architecture, coding, security review, and QA all at once.
-> Nobody works like that. Neither should your AI.
+> **One command. Six specialists. Production-ready code.**
+
+```bash
+/new-feature
+```
+
+```
+🔍 Detecting project... Spring Boot + Nuxt 3 (monorepo)
+👔 CTO Lead      → Breaking down requirements into 4 tasks
+🎨 Frontend Sr.  → "I need the API contract for /api/users"
+⚙️ Backend Sr.   → "Here's the spec: GET /api/users → UserListResponse"
+🎨 Frontend Sr.  → "Got it, building the table component now"
+🛡️ Security Sr.  → "Found: missing @PreAuthorize on PUT endpoint"
+⚙️ Backend Sr.   → "Fixed, added hasAuthority('PERM_USER_EDIT')"
+🧪 QA Sr.        → "All 12 scenarios passed, 0 failures"
+👔 CTO Lead      → "Requirements match rate: 96%. Ship it."
+✅ 4 commits created on feature/user-management
+```
+
+*This is what happens when you stop asking one agent to do six jobs.*
 
 <p align="center">
   <img src="images/agents.svg" alt="Agent Teams Overview" width="800"/>
@@ -215,6 +233,25 @@ Edit this file to customize branch strategy, exclude directories, or override de
 - English version of skills/agents: planned for future release
 
 [한국어 README](README.ko.md)
+
+---
+
+## FAQ
+
+**Q: Why not just use one agent?**
+A single agent reviewing its own code is like a chef tasting their own food — they already know what it *should* taste like. Dev Squad's Security Sr. and QA Sr. review code they didn't write, catching issues the author is blind to.
+
+**Q: Does this actually speed things up?**
+Frontend and Backend work in parallel, not sequentially. Verification (code review + security + QA + requirements) also runs in parallel. The wall-clock time drops significantly.
+
+**Q: What if agents disagree?**
+CTO Lead is the final arbiter. When Frontend Sr. and Backend Sr. negotiate API contracts via SendMessage, CTO Lead validates the result against requirements. Disagreements are resolved through the same message protocol.
+
+**Q: Can I customize agent behavior?**
+Yes. Copy any agent from the plugin to `.claude/agents/` and modify it. Project-level agents override plugin agents. See [Customization](#customization).
+
+**Q: Do I need bkit installed?**
+No. Dev Squad is fully independent. But bkit + Dev Squad together give you PDCA lifecycle management on top of multi-agent collaboration.
 
 ---
 
